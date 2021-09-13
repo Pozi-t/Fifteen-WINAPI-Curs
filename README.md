@@ -1,0 +1,3 @@
+# Fifteen-WINAPI-Curs
+Coursework on winapi, game
+Use my project and don't waste time on a course on wnapi ...
