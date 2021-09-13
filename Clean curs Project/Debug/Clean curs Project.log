@@ -1,0 +1,20 @@
+﻿  Source1.cpp
+C:\Users\Tikhon\Desktop\Универ\semestr2\WIN_API\cursach\Clean curs Project\Clean curs Project\Source1.cpp(1,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Tikhon\Desktop\Универ\semestr2\WIN_API\cursach\Clean curs Project\Clean curs Project\Source1.cpp(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Tikhon\Desktop\Универ\semestr2\WIN_API\cursach\Clean curs Project\Clean curs Project\Source1.cpp(3,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Tikhon\Desktop\Универ\semestr2\WIN_API\cursach\Clean curs Project\Clean curs Project\Source1.cpp(4,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Tikhon\Desktop\Универ\semestr2\WIN_API\cursach\Clean curs Project\Clean curs Project\Source1.cpp(5,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Tikhon\Desktop\Универ\semestr2\WIN_API\cursach\Clean curs Project\Clean curs Project\Source1.cpp(6,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Tikhon\Desktop\Универ\semestr2\WIN_API\cursach\Clean curs Project\Clean curs Project\Source1.cpp(7,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Tikhon\Desktop\Универ\semestr2\WIN_API\cursach\Clean curs Project\Clean curs Project\Source1.cpp(150,15): warning C4101: end_ptr: неиспользованная локальная переменная
+C:\Users\Tikhon\Desktop\Универ\semestr2\WIN_API\cursach\Clean curs Project\Clean curs Project\Source1.cpp(162,15): warning C4101: end_ptr: неиспользованная локальная переменная
+C:\Users\Tikhon\Desktop\Универ\semestr2\WIN_API\cursach\Clean curs Project\Clean curs Project\Source1.cpp(173,15): warning C4101: end_ptr: неиспользованная локальная переменная
+C:\Users\Tikhon\Desktop\Универ\semestr2\WIN_API\cursach\Clean curs Project\Clean curs Project\Source1.cpp(184,15): warning C4101: end_ptr: неиспользованная локальная переменная
+C:\Users\Tikhon\Desktop\Универ\semestr2\WIN_API\cursach\Clean curs Project\Clean curs Project\Source1.cpp(357,14): warning C4101: ps: неиспользованная локальная переменная
+C:\Users\Tikhon\Desktop\Универ\semestr2\WIN_API\cursach\Clean curs Project\Clean curs Project\Source1.cpp(362,7): warning C4101: buff: неиспользованная локальная переменная
+C:\Users\Tikhon\Desktop\Универ\semestr2\WIN_API\cursach\Clean curs Project\Clean curs Project\Source1.cpp(358,7): warning C4101: rt: неиспользованная локальная переменная
+C:\Users\Tikhon\Desktop\Универ\semestr2\WIN_API\cursach\Clean curs Project\Clean curs Project\Source1.cpp(528,24): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Tikhon\Desktop\Универ\semestr2\WIN_API\cursach\Clean curs Project\Clean curs Project\Source1.cpp(530,17): warning C4018: >=: несоответствие типов со знаком и без знака
+C:\Users\Tikhon\Desktop\Универ\semestr2\WIN_API\cursach\Clean curs Project\Clean curs Project\Source1.cpp(574,22): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Tikhon\Desktop\Универ\semestr2\WIN_API\cursach\Clean curs Project\Clean curs Project\Source1.cpp(575,23): warning C4018: <: несоответствие типов со знаком и без знака
+  Clean curs Project.vcxproj -> C:\Users\Tikhon\Desktop\Универ\semestr2\WIN_API\cursach\Clean curs Project\Debug\Clean curs Project.exe

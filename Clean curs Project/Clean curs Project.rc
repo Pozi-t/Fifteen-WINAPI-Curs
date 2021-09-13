@@ -1,0 +1,223 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Русский (Россия) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU
+BEGIN
+    POPUP "Гра"
+    BEGIN
+        MENUITEM "Нова гра",                    ID_GAME_NEW
+        MENUITEM "Вихід",                       ID_GAME_EXIT
+    END
+    POPUP "Информація"
+    BEGIN
+        MENUITEM "Про гру",                     ID_INFORMATION_ABOUTGAME
+        MENUITEM "Про програму",                ID_INFORMATION_ABOUTPROGRAMM
+        MENUITEM "Підказка",                    ID_INFORMATION_PROMPT
+        MENUITEM "Переможці",                   ID_INFORMATION_WINERS
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 204, 90
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Про гру"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Дякую",IDCANCEL,77,57,50,14
+    CTEXT           "П'ятнашки (п'ятнадцять) — популярна головоломка, придумана у 1878 році Ноєм Чепменом. Складається з 15 однакових квадратних пластинок з нанесеними числами від 1 до 15.",IDC_STATIC,7,16,190,43
+END
+
+IDD_DIALOG2 DIALOGEX 0, 0, 198, 85
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Про програму"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Ок",IDCANCEL,74,57,50,14
+    CTEXT           "Курсовий проект",IDC_STATIC,7,17,184,8
+    CTEXT           "Куберського Тихона Андрійовича",IDC_STATIC,7,30,184,8
+    CTEXT           "Тема :  Реалізувати гру «П'ятнашки»",IDC_STATIC,7,43,184,8
+END
+
+IDD_DIALOG3 DIALOGEX 0, 0, 268, 125
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Зрозуміло",IDCANCEL,107,92,50,14
+    CTEXT           "Починаючи з крайнього лівого",IDC_STATIC,7,48,254,8
+    CTEXT           "Підказка по збору",IDC_STATIC,7,14,254,8
+    CTEXT           "Потім вам буде простіше збирати не рядки а стовпців",IDC_STATIC,7,39,254,8
+    CTEXT           "Спочатку ви повинні зібрати перший рядок",IDC_STATIC,7,28,254,8
+    CTEXT           "Зібрати стовпців найпростіше вибудовуючи їх в потрібному вам порядку в будь-якому місці а потім рухати весь ряд з його кінцевої точки в початкову.",IDC_STATIC,7,58,254,24
+END
+
+IDD_DIALOG4 DIALOGEX 0, 0, 251, 270
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Перемога"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CTEXT           "Вітаю",IDC_STATIC,7,25,237,8
+    CTEXT           "Ви виставили усі цифри у потрібному порядку і перемогли",IDC_STATIC,7,39,237,8
+    PUSHBUTTON      "Дякую за гру",IDC_BUTTON1,104,62,50,14
+END
+
+IDD_DIALOG5 DIALOGEX 0, 0, 242, 241
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Переможці"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Ок",IDCANCEL,97,220,50,14
+    CTEXT           "Переможці :",IDC_STATIC,7,7,228,8,SS_CENTERIMAGE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 197
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 83
+    END
+
+    IDD_DIALOG2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 191
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 78
+    END
+
+    IDD_DIALOG3, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 261
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 118
+    END
+
+    IDD_DIALOG4, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 244
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 263
+    END
+
+    IDD_DIALOG5, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 235
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 234
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_DIALOG4 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG3 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG2 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG1 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG5 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // Русский (Россия) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
